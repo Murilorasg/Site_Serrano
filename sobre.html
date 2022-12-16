@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFl6_Dyi9PGicYcsr68FfEdlN7mbo4iJA&callback=initMap">
+    </script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Serrano Representações - Sobre</title>
+</head>
+<body onload="initialize()">
+    <script type="text/javascript" src="./js/map.js"></script>
+    <div class="content">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="./images/LOGO.png" alt="Logo" class="logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="a_header">Home</a></li>
+                    <li><a href="sobre.html" class="a_header">Sobre a Serrano</a></li>
+                    <li><a href="representadas.html" class="a_header">Empresas Representadas</a></li>
+                    <li><a href="contato.html" class="a_header">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="principal">
+            <section class="text_sobre">
+                <p><h1>Sobre a empresa</h1></p>
+            <p class="normal">A Serrano Representações é uma empresa de representação comercial
+                especializada em vendas no ramo de iluminação, sensores e materiais elétricos, com experiência
+                de mais de 20 anos de mercado. Atualmente, representamos 6 marcas, sendo elas:</p>
+                 <br>
+                <ul type="circle" class="ul_representadas">
+                    <p><li><b>OpusLed</b> - Ramo de Iluminação em Led</li></p>
+                    <p><li><b>Qualitronix</b> - Ramo de Sensores de presença e fotocélulas</li></p>
+                    <p><li><b>NSBAO</b> - Ramo de Lanternas, luminárias e armadilhas contra insetos</li></p>
+                    <p><li><b>Ecolume</b> - Ramo de Lâmpadas em geral</li></p>
+                    <p><li><b>Made Basics</b> - Ramo de acessórios diversos e transportes elétricos</li></p>
+                    <p><li><b>Gozilla</b> - Ramo de Discos diamantados para ferramentas elétricas</li></p>
+                </ul>
+                <p>Você pode ver imagens de alguns produtos destas empresas na aba "Empresas Representadas" no menu</p>
+            </section>
+        <section class="map">
+            <p><h2>Locais de atuação</h2></p>
+            <div id="map_canvas"></div>
+            <p><small>*Além das cidades apontadas no mapa, atendemos toda região do Sul de Minas Gerais</small></p>
+        </section>
+    </principal>
+        <footer>
+            <p><small>Serrano Representações - Representação Comercial</small></p>
+            <p><small>+55 19 99305-6739</small></p>
+            <p><a href="mailto:serranorepres@hotmail.com" class="a"><small>serranorepres@hotmail.com</small></a></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+*, *::before, *::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 5px;
+}
+
+header{
+    width: 100%;
+    background-color: #001338;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
+
+.a_header{
+    color: #FAFCFB;
+    text-decoration: none;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+.a_header:hover{
+    background-color: #E3E3E3;
+    color:#001338
+}
+
+.principal{
+    background-color: #E3E3E3;
+    height: 74.5vh !important;
+}
+
+.text{
+    height: 74.5vh;
+    width: 60%;
+    display: inline;
+    text-align: center;
+    float: left;
+    padding: 5%;
+}
+
+.paragrafos{
+    padding-top: 5%;
+}
+
+.paragrafos .normal{
+    font-style: none; 
+    text-align: justify;
+    text-indent: 7%;
+}
+
+.img_apresentacao{
+    width: 400px;
+}
+
+.text_sobre{
+    height: 74.5vh;
+    width: 60%;
+    display: inline;
+    float: left;
+    padding: 2%;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.image{
+    background-image: url(../images/pattern3.jpg);
+    background-size:cover;
+    height: 74.5vh;
+    width: 40%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map{
+    height: 74.5vh;
+    width: 35%;
+    float: right;
+    display: inline;
+    text-align: center;
+    padding-top: 2%;
+    border-left: solid #001338 1px;
+    margin-left: 10px;
+}
+
+.map h2{
+    margin-bottom: 30px;
+}
+
+.map p{
+    margin-top: 10px;
+}
+
+footer{
+    width: 100% !important;
+    height: 10vh !important;
+    position: bottom fixed !important;
+    padding-top: 0.7% !important;
+    background-color: #001338 !important;
+    color: #FAFCFB !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    clear: both !important;
+}
+
+footer .a{
+    color: #FAFCFB;
+}
+
+.representadas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card{
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+}
+
+.logos{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+#map_canvas{
+    margin-left: 12.7%;
+    width:75%;
+    height: 75%;
+    
+}
+
+.ul_representadas{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    text-align: left;
+}
